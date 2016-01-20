@@ -6,8 +6,8 @@ Karabiner is UI library for as3.
 ![](./sample.png)
 
 This library provides the basic UI components.
-(Button, ImageLoader, DraggableObject, Scroll and Slider, ScrollPage and Indicator) 
-These can be implemented with a few code.
+(Button, ImageLoader, DraggableObject, Scroll and Slider, ScrollPage and Indicator)
+Available in touch and mouse input. These can be implemented with a few code.
 
 The library does not have the view element.
 It takes the layout movie clip from the SWC, and wraps using the component class.
