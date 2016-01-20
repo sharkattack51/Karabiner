@@ -16,7 +16,7 @@ This library provides the basic UI components.
 Available in touch and mouse input. These can be implemented with a few code.
 
 The library does not have the view element.
-It takes the layout movie clip from the SWC, and wraps using the component class.
+It takes the layout MovieClip from SWC, and wraps using the component class.
 This allows you to customize the view element.
 
 All of the component object inherits from "Karabiner.FrameworkObjectBase",
