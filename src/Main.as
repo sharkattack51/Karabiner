@@ -57,7 +57,7 @@ package
 		
 		private function SetupSampleLoadImage():void
 		{
-			var image:ImageObject = new ImageObject("https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png", null, false);
+			var image:ImageObject = new ImageObject("https://dl.dropboxusercontent.com/u/4733593/Karabiner/load_image.png", null, false);
 			image.SetPostLoadSizing(100, 100);
 			image.addEventListener(Event.COMPLETE, function(e:Event):void {
 				(view.getChildByName("sample_load_image") as MovieClip).addChild(image);

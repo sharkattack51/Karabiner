@@ -1,7 +1,7 @@
 # Karabiner
 Karabiner is UI library for as3.
 
-[demo](./bin/index.html)
+[demo](https://dl.dropboxusercontent.com/u/4733593/Karabiner/index.html)
 
 ![](./sample.png)
 
