@@ -353,10 +353,10 @@ package Karabiner.Component
 		}
 		
 		// 読み込み後の表示サイズを指定する
-		public function SetPostLoadSizing(fitSize:Point, fitType:String):void
-		{
-			this.fitSize = fitSize;
-			this.fitType = fitType;
+		public function SetPostLoadSizing(width:Number, height:Number, imgFitType:String = "no_trim_and_fit_to_longer"):void
+		{	
+			this.fitSize = new Point(width, height);
+			this.fitType = imgFitType;
 		}
 	}
 }

@@ -3,6 +3,7 @@ package
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
+	import flash.geom.Point;
 	import flash.geom.Rectangle;
 	import flash.utils.Timer;
 	import Karabiner.Component.DraggableObject;
@@ -13,6 +14,7 @@ package
 	import Karabiner.Component.SliderObject;
 	import Karabiner.Component.VirticalScrollContainer;
 	import Karabiner.Enum.DRAG_DIRECTION;
+	import Karabiner.Enum.IMAGE_FIT_TYPE;
 	import Karabiner.Event.SliderEvent;
 	import SampleButton;
 	
@@ -55,7 +57,8 @@ package
 		
 		private function SetupSampleLoadImage():void
 		{
-			var image:ImageObject = new ImageObject("http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/images/shared/product_mnemonics/128x128/flash-player-128x128.png", null, false);
+			var image:ImageObject = new ImageObject("https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png", null, false);
+			image.SetPostLoadSizing(100, 100);
 			image.addEventListener(Event.COMPLETE, function(e:Event):void {
 				(view.getChildByName("sample_load_image") as MovieClip).addChild(image);
 			});
@@ -106,7 +109,7 @@ package
 				container.SetScroll(slider.SliderValue, slider.height);
 			});
 			slider.SetThumbSize(masked_area.height / scroll_text.height);
-			slider.InitDrag()
+			slider.InitDrag();
 		}
 		
 		private function SetupSampleScrollPage():void
@@ -118,13 +121,13 @@ package
 			pages.push(new Page3());
 			
 			var pageList:ScrollPageList = new ScrollPageList(pages, pages[0].width);
-			view.addChildAt(pageList,  1);
+			view.addChildAt(pageList, 1);
 			
 			// page ingicator
 			var pageIngicator:PageIndicator = new PageIndicator(pageList, pages.length, 50, IngicatorBtnView);
 			pageIngicator.x = 400;
 			pageIngicator.y = 540;
-			view.addChildAt(pageIngicator,  2);
+			view.addChildAt(pageIngicator, 2);
 		}
 	}
 }
