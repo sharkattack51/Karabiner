@@ -3,7 +3,7 @@ package Karabiner.Component
 	import flash.events.Event;
 	import flash.geom.Rectangle;
 	import Karabiner.Component.ScrollListBase;
-	import Karabiner.Enum.DRAG_DIRECTION;
+	import Karabiner.Constant.DRAG_DIRECTION;
 	
 	/**
 	 * ScrollPageList

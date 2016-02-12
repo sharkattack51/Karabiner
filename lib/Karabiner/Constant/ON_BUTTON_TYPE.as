@@ -1,4 +1,4 @@
-package Karabiner.Enum
+package Karabiner.Constant
 {
 	/**
 	 * ON_BUTTON_TYPE

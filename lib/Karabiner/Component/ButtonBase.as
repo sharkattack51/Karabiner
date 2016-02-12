@@ -6,10 +6,10 @@ package Karabiner.Component
 	import flash.events.MouseEvent;
 	import flash.events.TouchEvent;
 	import flash.geom.Point;
-	import Karabiner.Enum.ON_BUTTON_TYPE;
+	import Karabiner.Component.Interface.ISwcObject;
+	import Karabiner.Constant.ON_BUTTON_TYPE;
 	import Karabiner.Event.ButtonEvent;
 	import Karabiner.FrameworkObjectBase;
-	import Karabiner.Component.Interface.ISwcObject;
 	
 	/**
 	 * ButtonBase

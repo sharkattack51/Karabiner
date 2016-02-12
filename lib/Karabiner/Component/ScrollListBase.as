@@ -4,7 +4,7 @@ package Karabiner.Component
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.geom.Rectangle;
-	import Karabiner.Enum.DRAG_DIRECTION;
+	import Karabiner.Constant.DRAG_DIRECTION;
 	import Karabiner.Component.DragInteractionBase;
 	import Karabiner.Component.SliderObject;
 	

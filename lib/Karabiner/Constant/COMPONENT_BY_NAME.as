@@ -1,4 +1,4 @@
-package Karabiner.Enum
+package Karabiner.Constant
 {
 	/**
 	 * COMPONENT_BY_NAME

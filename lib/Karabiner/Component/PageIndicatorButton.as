@@ -3,8 +3,8 @@ package Karabiner.Component
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	import Karabiner.Component.ScrollPageList;
-	import Karabiner.Enum.COMPONENT_BY_NAME;
-	import Karabiner.Enum.ON_BUTTON_TYPE;
+	import Karabiner.Constant.COMPONENT_BY_NAME;
+	import Karabiner.Constant.ON_BUTTON_TYPE;
 	
 	/**
 	 * PageIndicatorButton

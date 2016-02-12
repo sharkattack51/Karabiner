@@ -2,7 +2,7 @@ package
 {
 	import flash.text.TextField;
 	import Karabiner.Component.ButtonBase;
-	import Karabiner.Enum.ON_BUTTON_TYPE;
+	import Karabiner.Constant.ON_BUTTON_TYPE;
 	
 	/**
 	 * SampleButton

@@ -1,4 +1,4 @@
-package Karabiner.Enum 
+package Karabiner.Constant 
 {
 	/**
 	 * IMAGE_FIT_TYPE

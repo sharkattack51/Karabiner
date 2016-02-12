@@ -6,8 +6,8 @@ package Karabiner.Component
 	import flash.events.Event;
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
-	import Karabiner.Enum.COMPONENT_BY_NAME;
-	import Karabiner.Enum.DRAG_DIRECTION;
+	import Karabiner.Constant.COMPONENT_BY_NAME;
+	import Karabiner.Constant.DRAG_DIRECTION;
 	import Karabiner.Event.DragEvent;
 	import Karabiner.Event.SliderEvent;
 	import Karabiner.FrameworkObjectBase;

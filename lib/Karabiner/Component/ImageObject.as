@@ -14,7 +14,7 @@ package Karabiner.Component
 	import flash.geom.Point;
 	import flash.net.URLRequest;
 	import flash.net.URLRequestMethod;
-	import Karabiner.Enum.IMAGE_FIT_TYPE;
+	import Karabiner.Constant.IMAGE_FIT_TYPE;
 	import Karabiner.Util.URLUtil;
 	
 	/**

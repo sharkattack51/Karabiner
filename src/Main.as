@@ -13,8 +13,8 @@ package
 	import Karabiner.Component.SimpleDraggableObject;
 	import Karabiner.Component.SliderObject;
 	import Karabiner.Component.VirticalScrollContainer;
-	import Karabiner.Enum.DRAG_DIRECTION;
-	import Karabiner.Enum.IMAGE_FIT_TYPE;
+	import Karabiner.Constant.DRAG_DIRECTION;
+	import Karabiner.Constant.IMAGE_FIT_TYPE;
 	import Karabiner.Event.SliderEvent;
 	import SampleButton;
 	
