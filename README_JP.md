@@ -16,6 +16,8 @@ Flash IDE を使ってレイアウトされた MovieClip を SWC ライブラリ
 それは内部的に `addChild()` でステージに追加された時に初期化イベントが実行され、
 同様に `removeChild()` でステージから取り除かれた時にデストラクタイベントが実行されます。
 
+また、すぐにプロジェクトを開始したい場合は [Backpack](https://github.com/sharkattack51/Backpack) を利用できます。
+
 ## Require
 
 - [ImageLoadQue](http://www.libspark.org/wiki/ImageLoadQueue)
